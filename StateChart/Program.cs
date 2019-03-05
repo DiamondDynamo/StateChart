@@ -138,10 +138,6 @@ namespace StateChart
                             stateLevelD = 9;
                             Console.WriteLine("Moving from 8 to 9 at level D");
                             printTime();
-                        } else
-                        {
-                            Console.WriteLine("Invalid command for level D");
-                            printTime();
                         }
                     } else if(stateLevelC == 7)
                     {
