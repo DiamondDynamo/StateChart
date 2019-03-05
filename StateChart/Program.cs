@@ -76,6 +76,7 @@ namespace StateChart
             stateLevelB = 4;
             history = stateLevelB;
             Console.WriteLine("Initializing statechart. Level A initialized to 1 and level B initialized to 4");
+            printTime();
         }
 
         /// <summary>
